@@ -14,15 +14,13 @@
         android:layout_marginBottom="8dp"
         android:text="@string/txt_versão"
         android:textAlignment="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        />
+        app:layout_constraintBottom_toBottomOf="parent" />
 
     <ImageView
         android:id="@+id/imgLogin"
         android:layout_width="125dp"
         android:layout_height="140dp"
         android:layout_alignParentTop="true"
-        android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
@@ -31,30 +29,64 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/txt_ra"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogin" />
 
     <EditText
         android:id="@+id/field_login"
         android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_margin="20dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/shape_linhas"
         android:hint="@string/txt_usuario"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/colorPrimaryBranco"
+        android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
+
+
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imgLogin"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
+        android:id="@+id/field_senha"
         android:layout_width="300dp"
         android:layout_height="40dp"
         android:layout_margin="20dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="60dp"
         android:hint="@string/txt_senha"
+        android:background="@drawable/shape_linhas"
+        android:paddingLeft="15dp"
+        android:textSize="15dp"
+        android:textColorHint="@color/colorPrimaryBranco"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/field_login"
+        app:layout_constraintTop_toBottomOf="@+id/field_login" />
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="72dp"
+        android:text="@string/txt_login"
+        android:textColor="@color/colorPrimaryBranco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@string/txt_usuario"
         />
+
+
 
 </android.support.constraint.ConstraintLayout>
