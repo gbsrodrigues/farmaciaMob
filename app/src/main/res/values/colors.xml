@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Cores primarias-->
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="colorPrimaryBranco">#ffffff</color>
+    <color name="colorPrimaryPreto">#000000</color>
+    <color name="colorPrimaryCinza">#737373</color>
+    <color name="colorPrimaryVermelho">#ff0000</color>
+    <color name="colorPrimaryVerde">#00ff00</color>
+    <color name="colorPrimaryAzul">#0000ff</color>
+    <color name="colorPrimaryLaranja">#ff8000</color>
+
+    <!--Cores primarias com alpha-->
+
+    <color name="colorPrimaryAlpha">#823f51b5</color>
+    <color name="colorPrimaryDarkAlpha">#82303F9F</color>
+    <color name="colorAccentAlpha">#82ff4081</color>
+    <color name="colorPrimaryBrancoAlpha">#82ffffff</color>
+    <color name="colorPrimaryPretoAlpha">#82000000</color>
+    <color name="colorPrimaryCinzaAlpha">#82737373</color>
+    <color name="coloPrimaryVermelhoAlpha">#82ff0000</color>
+    <color name="coloPrimaryVerdeAlpha">#8200ff00</color>
+    <color name="coloPrimaryAzulAlpha">#820000ff</color>
+    <color name="colorPrimaryLaranjaAlpha">#82ff8000</color>
+
+</resources>

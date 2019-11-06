@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">Farmacia</string>
+    <string name="txt_welcome">Bem vindo</string>
+    <string name="txt_senha">Senha</string>
+    <string name="txt_usuario">Usuário</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_versão">Versão atual:  </string>
+    <string name="txt_findBuscar">Buscar</string>
+    <string name="txt_findRemedios">Remedios</string>
+    <string name="txt_descImagemLogin">Imagem tela login</string>
+    <string name="txt_voltar">Voltar</string>
+    <string name="txt_ra">Gabriel Rodrigues: D23493-5</string>
+    <string name="txt_btLogout">Encerrar sessão</string>
+    <string name="txt_btInfo">Informações</string>
+
+
+
+
+</resources>
+
+
